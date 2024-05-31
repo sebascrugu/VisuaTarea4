@@ -1,9 +1,10 @@
 [build]
-  base = "netlify-d3-map"
+  base = "/Users/sebastiancruz/Desktop/VisuaTarea4"
+  functions = "functions"
   command = "npm run build"
-  publish = "netlify-d3-map/build"
+  publish = "build"
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/index.html"
   status = 200
