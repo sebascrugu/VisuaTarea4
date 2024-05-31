@@ -1,6 +1,7 @@
 [build]
+  base = "netlify-d3-map"
   command = "npm run build"
-  publish = "build"
+  publish = "netlify-d3-map/build"
 
 [[redirects]]
   from = "/*"
