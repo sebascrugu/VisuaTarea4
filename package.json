@@ -5,13 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "netlify dev",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "netlify deploy --prod"
   },
   "author": "Sebastian Cruz",
   "license": "MIT",
   "dependencies": {
     "d3": "^7.0.0",
-    "react-scripts": "^5.0.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^3.29.15"
   },
   "browserslist": {
     "production": [

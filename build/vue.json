@@ -1,0 +1,1010 @@
+{
+    "name": "VUE",
+    "children": [
+      {
+        "name": "@babel",
+        "children": [
+          {
+            "name": "parser",
+            "children": [
+              { "name": "CHANGELOG.md", "size": 38238 },
+              { "name": "LICENSE", "size": 1086 },
+              { "name": "README.md", "size": 427 },
+              { "name": "bin", "children": [{ "name": "babel-parser.js", "size": 328 }] },
+              {
+                "name": "lib",
+                "children": [
+                  { "name": "index.js", "size": 469611 },
+                  { "name": "index.js.map", "size": 1371164 }
+                ]
+              },
+              { "name": "package.json", "size": 1096 },
+              { "name": "typings", "children": [{ "name": "babel-parser.d.ts", "size": 6100 }] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "@vitejs",
+        "children": [
+          {
+            "name": "plugin-vue",
+            "children": [
+              { "name": "LICENSE", "size": 1098 },
+              { "name": "README.md", "size": 3916 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "index.d.ts", "size": 2359 },
+                  { "name": "index.js", "size": 169316 }
+                ]
+              },
+              { "name": "package.json", "size": 1690 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "@vue",
+        "children": [
+          {
+            "name": "compiler-core",
+            "children": [
+              { "name": "LICENSE", "size": 1091 },
+              { "name": "README.md", "size": 21 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "compiler-core.cjs.js", "size": 229320 },
+                  { "name": "compiler-core.cjs.prod.js", "size": 222231 },
+                  { "name": "compiler-core.d.ts", "size": 43752 },
+                  { "name": "compiler-core.esm-bundler.js", "size": 195230 }
+                ]
+              },
+              { "name": "index.js", "size": 191 },
+              { "name": "package.json", "size": 950 }
+            ]
+          },
+          {
+            "name": "compiler-dom",
+            "children": [
+              { "name": "LICENSE", "size": 1091 },
+              { "name": "README.md", "size": 19 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "compiler-dom.cjs.js", "size": 76849 },
+                  { "name": "compiler-dom.cjs.prod.js", "size": 74981 },
+                  { "name": "compiler-dom.d.ts", "size": 2147 },
+                  { "name": "compiler-dom.esm-browser.js", "size": 216060 },
+                  { "name": "compiler-dom.esm-browser.prod.js", "size": 56402 },
+                  { "name": "compiler-dom.esm-bundler.js", "size": 19313 },
+                  { "name": "compiler-dom.global.js", "size": 231014 },
+                  { "name": "compiler-dom.global.prod.js", "size": 56218 }
+                ]
+              },
+              { "name": "index.js", "size": 189 },
+              { "name": "package.json", "size": 978 }
+            ]
+          },
+          {
+            "name": "compiler-sfc",
+            "children": [
+              { "name": "LICENSE", "size": 1091 },
+              { "name": "README.md", "size": 4434 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "compiler-sfc.cjs.js", "size": 504725 },
+                  { "name": "compiler-sfc.d.ts", "size": 10104 },
+                  { "name": "compiler-sfc.esm-browser.js", "size": 1522262 }
+                ]
+              },
+              { "name": "package.json", "size": 1492 }
+            ]
+          },
+          {
+            "name": "compiler-ssr",
+            "children": [
+              { "name": "LICENSE", "size": 1091 },
+              { "name": "README.md", "size": 19 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "compiler-ssr.cjs.js", "size": 51963 },
+                  { "name": "compiler-ssr.d.ts", "size": 216 }
+                ]
+              },
+              { "name": "package.json", "size": 729 }
+            ]
+          },
+          {
+            "name": "reactivity",
+            "children": [
+              { "name": "LICENSE", "size": 1091 },
+              { "name": "README.md", "size": 1049 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "reactivity.cjs.js", "size": 41403 },
+                  { "name": "reactivity.cjs.prod.js", "size": 38466 },
+                  { "name": "reactivity.d.ts", "size": 11757 },
+                  { "name": "reactivity.esm-browser.js", "size": 42343 },
+                  { "name": "reactivity.esm-browser.prod.js", "size": 11647 },
+                  { "name": "reactivity.esm-bundler.js", "size": 41895 },
+                  { "name": "reactivity.global.js", "size": 45767 },
+                  { "name": "reactivity.global.prod.js", "size": 11612 }
+                ]
+              },
+              { "name": "index.js", "size": 185 },
+              { "name": "package.json", "size": 905 }
+            ]
+          },
+          {
+            "name": "reactivity-transform",
+            "children": [
+              { "name": "README.md", "size": 3014 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "reactivity-transform.cjs.js", "size": 21827 },
+                  { "name": "reactivity-transform.d.ts", "size": 1007 }
+                ]
+              },
+              { "name": "package.json", "size": 959 }
+            ]
+          },
+          {
+            "name": "runtime-core",
+            "children": [
+              { "name": "LICENSE", "size": 1091 },
+              { "name": "README.md", "size": 790 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "runtime-core.cjs.js", "size": 306756 },
+                  { "name": "runtime-core.cjs.prod.js", "size": 246061 },
+                  { "name": "runtime-core.d.ts", "size": 81656 },
+                  { "name": "runtime-core.esm-bundler.js", "size": 314543 }
+                ]
+              },
+              { "name": "index.js", "size": 189 },
+              { "name": "package.json", "size": 831 }
+            ]
+          },
+          {
+            "name": "runtime-dom",
+            "children": [
+              { "name": "LICENSE", "size": 1091 },
+              { "name": "README.md", "size": 198 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "runtime-dom.cjs.js", "size": 60141 },
+                  { "name": "runtime-dom.cjs.prod.js", "size": 55312 },
+                  { "name": "runtime-dom.d.ts", "size": 43204 },
+                  { "name": "runtime-dom.esm-browser.js", "size": 407976 },
+                  { "name": "runtime-dom.esm-browser.prod.js", "size": 84400 },
+                  { "name": "runtime-dom.esm-bundler.js", "size": 61658 },
+                  { "name": "runtime-dom.global.js", "size": 432395 },
+                  { "name": "runtime-dom.global.prod.js", "size": 83777 }
+                ]
+              },
+              { "name": "index.js", "size": 187 },
+              { "name": "package.json", "size": 929 }
+            ]
+          },
+          {
+            "name": "server-renderer",
+            "children": [
+              { "name": "LICENSE", "size": 1091 },
+              { "name": "README.md", "size": 3881 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "server-renderer.cjs.js", "size": 38124 },
+                  { "name": "server-renderer.cjs.prod.js", "size": 29033 },
+                  { "name": "server-renderer.d.ts", "size": 4253 },
+                  { "name": "server-renderer.esm-bundler.js", "size": 36165 }
+                ]
+              },
+              { "name": "index.js", "size": 195 },
+              { "name": "package.json", "size": 879 }
+            ]
+          },
+          {
+            "name": "shared",
+            "children": [
+              { "name": "LICENSE", "size": 1091 },
+              { "name": "README.md", "size": 87 },
+              {
+                "name": "dist",
+                "children": [
+                  { "name": "shared.cjs.js", "size": 25270 },
+                  { "name": "shared.cjs.prod.js", "size": 25236 },
+                  { "name": "shared.d.ts", "size": 11715 },
+                  { "name": "shared.esm-bundler.js", "size": 24069 }
+                ]
+              },
+              { "name": "index.js", "size": 177 },
+              { "name": "package.json", "size": 710 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "csstype",
+        "children": [
+          { "name": "LICENSE", "size": 1081 },
+          { "name": "README.md", "size": 9026 },
+          { "name": "index.d.ts", "size": 1651497 },
+          { "name": "index.js.flow", "size": 290240 },
+          { "name": "package.json", "size": 1928 }
+        ]
+      },
+      {
+        "name": "esbuild",
+        "children": [
+          { "name": "README.md", "size": 175 },
+          { "name": "bin", "children": [{ "name": "esbuild", "size": 8513536 }] },
+          { "name": "install.js", "size": 9428 },
+          { "name": "lib", "children": [{ "name": "main.d.ts", "size": 17724 }, { "name": "main.js", "size": 82131 }] },
+          { "name": "package.json", "size": 1179 }
+        ]
+      },
+      {
+        "name": "esbuild-darwin-64",
+        "children": [
+          { "name": "README.md", "size": 141 },
+          { "name": "bin", "children": [{ "name": "esbuild", "size": 8513536 }] },
+          { "name": "package.json", "size": 330 }
+        ]
+      },
+      {
+        "name": "estree-walker",
+        "children": [
+          { "name": "CHANGELOG.md", "size": 1548 },
+          { "name": "LICENSE", "size": 1126 },
+          { "name": "README.md", "size": 1623 },
+          {
+            "name": "dist",
+            "children": [
+              { "name": "esm", "children": [{ "name": "estree-walker.js", "size": 7158 }, { "name": "package.json", "size": 17 }] },
+              { "name": "umd", "children": [{ "name": "estree-walker.js", "size": 7828 }] }
+            ]
+          },
+          {
+            "name": "src",
+            "children": [
+              { "name": "async.js", "size": 2712 },
+              { "name": "index.js", "size": 842 },
+              { "name": "package.json", "size": 18 },
+              { "name": "sync.js", "size": 2659 },
+              { "name": "walker.js", "size": 1114 }
+            ]
+          },
+          {
+            "name": "types",
+            "children": [
+              { "name": "async.d.ts", "size": 1939 },
+              { "name": "index.d.ts", "size": 2242 },
+              { "name": "sync.d.ts", "size": 1879 },
+              { "name": "tsconfig.tsbuildinfo", "size": 15666 },
+              { "name": "walker.d.ts", "size": 1024 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "fsevents",
+        "children": [
+          { "name": "LICENSE", "size": 1133 },
+          { "name": "README.md", "size": 2958 },
+          { "name": "fsevents.d.ts", "size": 1431 },
+          { "name": "fsevents.js", "size": 2424 },
+          { "name": "fsevents.node", "size": 147128 },
+          { "name": "package.json", "size": 1348 }
+        ]
+      },
+      {
+        "name": "function-bind",
+        "children": [
+          { "name": "LICENSE", "size": 1052 },
+          { "name": "README.md", "size": 1488 },
+          { "name": "implementation.js", "size": 1463 },
+          { "name": "index.js", "size": 126 },
+          { "name": "package.json", "size": 1498 },
+          {
+            "name": "test",
+            "children": [
+              { "name": "index.js", "size": 8991 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "has",
+        "children": [
+          { "name": "LICENSE-MIT", "size": 1060 },
+          { "name": "README.md", "size": 239 },
+          { "name": "package.json", "size": 1011 },
+          {
+            "name": "src",
+            "children": [
+              { "name": "index.js", "size": 129 }
+            ]
+          },
+          {
+            "name": "test",
+            "children": [
+              { "name": "index.js", "size": 331 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "is-core-module",
+        "children": [
+          { "name": "CHANGELOG.md", "size": 10629 },
+          { "name": "LICENSE", "size": 1078 },
+          { "name": "README.md", "size": 1659 },
+          { "name": "core.json", "size": 5492 },
+          { "name": "index.js", "size": 1757 },
+          { "name": "package.json", "size": 1680 },
+          {
+            "name": "test",
+            "children": [
+              { "name": "index.js", "size": 4076 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "magic-string",
+        "children": [
+          { "name": "LICENSE", "size": 1051 },
+          { "name": "README.md", "size": 9313 },
+          {
+            "name": "dist",
+            "children": [
+              { "name": "magic-string.cjs.js", "size": 33911 },
+              { "name": "magic-string.cjs.js.map", "size": 80859 },
+              { "name": "magic-string.es.js", "size": 33714 },
+              { "name": "magic-string.es.js.map", "size": 80361 },
+              { "name": "magic-string.umd.js", "size": 37176 },
+              { "name": "magic-string.umd.js.map", "size": 87487 }
+            ]
+          },
+          { "name": "index.d.ts", "size": 7678 },
+          { "name": "package.json", "size": 1506 }
+        ]
+      },
+      {
+        "name": "nanoid",
+        "children": [
+          { "name": "LICENSE", "size": 1095 },
+          { "name": "README.md", "size": 1557 },
+          {
+            "name": "async",
+            "children": [
+              { "name": "index.browser.cjs", "size": 983 },
+              { "name": "index.browser.js", "size": 973 },
+              { "name": "index.cjs", "size": 993 },
+              { "name": "index.d.ts", "size": 1505 },
+              { "name": "index.js", "size": 976 },
+              { "name": "index.native.js", "size": 814 }
+            ]
+          },
+          { "name": "package.json", "size": 233 },
+          {
+            "name": "bin",
+            "children": [
+              { "name": "nanoid.cjs", "size": 1129 }
+            ]
+          },
+          { "name": "index.browser.cjs", "size": 1074 },
+          { "name": "index.browser.js", "size": 1060 },
+          { "name": "index.cjs", "size": 1343 },
+          { "name": "index.d.ts", "size": 2252 },
+          { "name": "index.js", "size": 1326 },
+          { "name": "nanoid.js", "size": 169 },
+          {
+            "name": "non-secure",
+            "children": [
+              { "name": "index.cjs", "size": 499 },
+              { "name": "index.d.ts", "size": 983 },
+              { "name": "index.js", "size": 489 }
+            ]
+          },
+          { "name": "package.json", "size": 1702 },
+          {
+            "name": "url-alphabet",
+            "children": [
+              { "name": "index.cjs", "size": 120 },
+              { "name": "index.js", "size": 110 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "path-parse",
+        "children": [
+          { "name": "LICENSE", "size": 1080 },
+          { "name": "README.md", "size": 871 },
+          { "name": "index.js", "size": 1893 },
+          { "name": "package.json", "size": 667 }
+        ]
+      },
+      {
+        "name": "picocolors",
+        "children": [
+          { "name": "LICENSE", "size": 781 },
+          { "name": "README.md", "size": 622 },
+          { "name": "package.json", "size": 550 },
+          { "name": "picocolors.browser.js", "size": 360 },
+          { "name": "picocolors.d.ts", "size": 138 },
+          { "name": "picocolors.js", "size": 2594 },
+          { "name": "types.ts", "size": 610 }
+        ]
+      },
+      {
+        "name": "postcss",
+        "children": [
+          { "name": "LICENSE", "size": 1095 },
+          { "name": "README.md", "size": 1965 },
+          {
+            "name": "lib",
+            "children": [
+              { "name": "at-rule.d.ts", "size": 2498 },
+              { "name": "at-rule.js", "size": 471 },
+              { "name": "comment.d.ts", "size": 1376 },
+              { "name": "comment.js", "size": 203 },
+              { "name": "container.d.ts", "size": 12590 },
+              { "name": "container.js", "size": 10228 },
+              { "name": "css-syntax-error.d.ts", "size": 6223 },
+              { "name": "css-syntax-error.js", "size": 2524 },
+              { "name": "declaration.d.ts", "size": 3059 },
+              { "name": "declaration.js", "size": 495 },
+              { "name": "document.d.ts", "size": 1524 },
+              { "name": "document.js", "size": 654 },
+              { "name": "fromJSON.d.ts", "size": 107 },
+              { "name": "fromJSON.js", "size": 1506 },
+              { "name": "input.d.ts", "size": 3466 },
+              { "name": "input.js", "size": 6189 },
+              { "name": "lazy-result.d.ts", "size": 4630 },
+              { "name": "lazy-result.js", "size": 13562 },
+              { "name": "list.d.ts", "size": 1262 },
+              { "name": "list.js", "size": 1167 },
+              { "name": "map-generator.js", "size": 8786 },
+              { "name": "no-work-result.d.ts", "size": 1323 },
+              { "name": "no-work-result.js", "size": 2551 },
+              { "name": "node.d.ts", "size": 12457 },
+              { "name": "node.js", "size": 8485 },
+              { "name": "parse.d.ts", "size": 89 },
+              { "name": "parse.js", "size": 1147 },
+              { "name": "parser.js", "size": 14482 },
+              { "name": "postcss.d.ts", "size": 11357 },
+              { "name": "postcss.js", "size": 2786 },
+              { "name": "postcss.mjs", "size": 980 },
+              { "name": "previous-map.d.ts", "size": 1618 },
+              { "name": "previous-map.js", "size": 3923 },
+              { "name": "processor.d.ts", "size": 3012 },
+              { "name": "processor.js", "size": 1810 },
+              { "name": "result.d.ts", "size": 4115 },
+              { "name": "result.js", "size": 745 },
+              { "name": "root.d.ts", "size": 1856 },
+              { "name": "root.js", "size": 1209 },
+              { "name": "rule.d.ts", "size": 2395 },
+              { "name": "rule.js", "size": 569 },
+              { "name": "stringifier.d.ts", "size": 1202 },
+              { "name": "stringifier.js", "size": 8220 },
+              { "name": "stringify.d.ts", "size": 107 },
+              { "name": "stringify.js", "size": 213 },
+              { "name": "symbols.js", "size": 91 },
+              { "name": "terminal-highlight.js", "size": 1399 },
+              { "name": "tokenize.js", "size": 6536 },
+              { "name": "warn-once.js", "size": 256 },
+              { "name": "warning.d.ts", "size": 2735 },
+              { "name": "warning.js", "size": 739 }
+            ]
+          },
+          { "name": "package.json", "size": 2450 }
+        ]
+      },
+      {
+        "name": "resolve",
+        "children": [
+          { "name": "LICENSE", "size": 1071 },
+          { "name": "SECURITY.md", "size": 157 },
+          { "name": "appveyor.yml", "size": 2768 },
+          { "name": "async.js", "size": 56 },
+          {
+            "name": "bin",
+            "children": [
+              { "name": "resolve", "size": 1473 }
+            ]
+          },
+          {
+            "name": "example",
+            "children": [
+              { "name": "async.js", "size": 155 },
+              { "name": "sync.js", "size": 103 }
+            ]
+          },
+          { "name": "index.js", "size": 174 },
+          {
+            "name": "lib",
+            "children": [
+              { "name": "async.js", "size": 11359 },
+              { "name": "caller.js", "size": 354 },
+              { "name": "core.js", "size": 1653 },
+              { "name": "core.json", "size": 5469 },
+              { "name": "homedir.js", "size": 805 },
+              { "name": "is-core.js", "size": 116 },
+              { "name": "node-modules-paths.js", "size": 1294 },
+              { "name": "normalize-options.js", "size": 348 },
+              { "name": "sync.js", "size": 6993 }
+            ]
+          },
+          { "name": "package.json", "size": 1765 },
+          { "name": "readme.markdown", "size": 11504 },
+          { "name": "sync.js", "size": 55 },
+          {
+            "name": "test",
+            "children": [
+              { "name": "core.js", "size": 2671 },
+              { "name": "dotdot", "children": [
+                { "name": "abc", "children": [
+                  { "name": "index.js", "size": 39 }
+                ]},
+                { "name": "index.js", "size": 29 }
+              ]},
+              { "name": "dotdot.js", "size": 799 },
+              { "name": "faulty_basedir.js", "size": 807 },
+              { "name": "filter.js", "size": 1045 },
+              { "name": "filter_sync.js", "size": 1427 },
+              { "name": "home_paths.js", "size": 4472 },
+              { "name": "home_paths_sync.js", "size": 3797 },
+              { "name": "mock.js", "size": 10012 },
+              { "name": "mock_sync.js", "size": 6047 },
+              { "name": "module_dir", "children": [
+                { "name": "xmodules", "children": [
+                  { "name": "aaa", "children": [
+                    { "name": "index.js", "size": 51 }
+                  ]}
+                ]},
+                { "name": "ymodules", "children": [
+                  { "name": "aaa", "children": [
+                    { "name": "index.js", "size": 51 }
+                  ]}
+                ]},
+                { "name": "zmodules", "children": [
+                  { "name": "bbb", "children": [
+                    { "name": "main.js", "size": 51 },
+                    { "name": "package.json", "size": 24 }
+                  ]}
+                ]}
+              ]},
+              { "name": "module_dir.js", "size": 1558 },
+              { "name": "node-modules-paths.js", "size": 5101 },
+              { "name": "node_path", "children": [
+                { "name": "x", "children": [
+                  { "name": "aaa", "children": [
+                    { "name": "index.js", "size": 22 }
+                  ]},
+                  { "name": "ccc", "children": [
+                    { "name": "index.js", "size": 22 }
+                  ]}
+                ]},
+                { "name": "y", "children": [
+                  { "name": "bbb", "children": [
+                    { "name": "index.js", "size": 22 }
+                  ]},
+                  { "name": "ccc", "children": [
+                    { "name": "index.js", "size": 23 }
+                  ]}
+                ]}
+              ]},
+              { "name": "node_path.js", "size": 2128 },
+              { "name": "nonstring.js", "size": 182 },
+              { "name": "pathfilter", "children": [
+                { "name": "deep_ref", "children": [
+                  { "name": "main.js", "size": 0 }
+                ]}
+              ]},
+              { "name": "pathfilter.js", "size": 2248 },
+              { "name": "precedence", "children": [
+                { "name": "aaa", "children": [
+                  { "name": "index.js", "size": 25 },
+                  { "name": "main.js", "size": 28 },
+                  { "name": "js", "size": 24 }
+                ]},
+                { "name": "bbb", "children": [
+                  { "name": "main.js", "size": 44 },
+                  { "name": "js", "size": 24 }
+                ]}
+              ]},
+              { "name": "precedence.js", "size": 646 },
+              { "name": "resolver", "children": [
+                { "name": "baz", "children": [
+                  { "name": "doom.js", "size": 0 },
+                  { "name": "package.json", "size": 45 },
+                  { "name": "quux.js", "size": 20 }
+                ]}
+              ]},
+              { "name": "resolver.browser_field", "children": [
+                { "name": "a.js", "size": 0 },
+                { "name": "b.js", "size": 0 },
+                { "name": "package.json", "size": 63 }
+              ]},
+              { "name": "resolver.cup.coffee", "size": 1 },
+              { "name": "resolver.dot_main", "children": [
+                { "name": "index.js", "size": 20 },
+                { "name": "package.json", "size": 20 }
+              ]},
+              { "name": "resolver.dot_slash_main", "children": [
+                { "name": "index.js", "size": 20 },
+                { "name": "package.json", "size": 21 }
+              ]},
+              { "name": "resolver.foo.js", "size": 20 },
+              { "name": "resolver.incorrect_main", "children": [
+                { "name": "index.js", "size": 116 },
+                { "name": "package.json", "size": 27 }
+              ]},
+              { "name": "resolver.invalid_main", "children": [
+                { "name": "package.json", "size": 93 }
+              ]},
+              { "name": "resolver.malformed_package_json", "children": [
+                { "name": "index.js", "size": 0 },
+                { "name": "package.json", "size": 2 }
+              ]},
+              { "name": "resolver.mug", "children": [
+                { "name": "coffee", "size": 0 },
+                { "name": "js", "size": 0 }
+              ]},
+              { "name": "resolver.multirepo", "children": [
+                { "name": "lerna.json", "size": 63 },
+                { "name": "package.json", "size": 380 },
+                { "name": "packages", "children": [
+                  { "name": "package-a", "children": [
+                    { "name": "index.js", "size": 1319 },
+                    { "name": "package.json", "size": 281 }
+                  ]},
+                  { "name": "package-b", "children": [
+                    { "name": "index.js", "size": 0 },
+                    { "name": "package.json", "size": 281 }
+                  ]}
+                ]}
+              ]},
+              { "name": "resolver.nested_symlinks", "children": [
+                { "name": "mylib", "children": [
+                  { "name": "async.js", "size": 858 },
+                  { "name": "package.json", "size": 259 },
+                  { "name": "sync.js", "size": 606 }
+                ]}
+              ]},
+              { "name": "resolver.other_path", "children": [
+                { "name": "lib", "children": [
+                  { "name": "other-lib.js", "size": 0 }
+                ]},
+                { "name": "root.js", "size": 0 }
+              ]},
+              { "name": "resolver.quux", "children": [
+                { "name": "foo", "children": [
+                  { "name": "index.js", "size": 20 }
+                ]}
+              ]},
+              { "name": "resolver.same_names", "children": [
+                { "name": "foo", "children": [
+                  { "name": "index.js", "size": 20 },
+                  { "name": "js", "size": 21 }
+                ]}
+              ]},
+              { "name": "resolver.symlinked", "children": [
+                { "name": "_", "children": [
+                  { "name": "node_modules", "children": [
+                    { "name": "foo.js", "size": 0 }
+                  ]},
+                  { "name": "symlink_target", "size": 102 }
+                ]},
+                { "name": "package", "children": [
+                  { "name": "bar.js", "size": 24 },
+                  { "name": "package.json", "size": 24 }
+                ]}
+              ]},
+              { "name": "resolver.without_basedir", "children": [
+                { "name": "main.js", "size": 111 }
+              ]}
+            ]
+          },
+          { "name": "resolver.js", "size": 18556 },
+          { "name": "resolver_sync.js", "size": 18010 },
+          { "name": "shadowed_core", "children": [
+            { "name": "node_modules", "children": [
+              { "name": "util", "children": [
+                { "name": "index.js", "size": 0 }
+              ]}
+            ]},
+            { "name": "shadowed_core.js", "size": 1814 }
+          ]},
+          { "name": "subdirs.js", "size": 353 },
+          { "name": "symlinks.js", "size": 6535 }
+        ]
+      },
+      {
+        "name": "rollup",
+        "children": [
+          { "name": "CHANGELOG.md", "size": 242619 },
+          { "name": "LICENSE.md", "size": 35412 },
+          { "name": "README.md", "size": 8835 },
+          {
+            "name": "dist",
+            "children": [
+              { "name": "bin", "children": [
+                { "name": "rollup", "size": 73363 }
+              ]},
+              { "name": "es", "children": [
+                { "name": "package.json", "size": 17 },
+                { "name": "rollup.browser.js", "size": 395242 },
+                { "name": "rollup.js", "size": 373 },
+                { "name": "shared", "children": [
+                  { "name": "rollup.js", "size": 884933 },
+                  { "name": "watch.js", "size": 138305 }
+                ]}
+              ]},
+              { "name": "loadConfigFile.js", "size": 578 },
+              { "name": "rollup.browser.js", "size": 394586 },
+              { "name": "rollup.browser.js.map", "size": 3298388 },
+              { "name": "rollup.d.ts", "size": 26978 },
+              { "name": "rollup.js", "size": 649 },
+              { "name": "shared", "children": [
+                { "name": "index.js", "size": 121328 },
+                { "name": "loadConfigFile.js", "size": 24436 },
+                { "name": "mergeOptions.js", "size": 8170 },
+                { "name": "rollup.js", "size": 886672 },
+                { "name": "watch-cli.js", "size": 15885 },
+                { "name": "watch.js", "size": 10072 }
+              ]}
+            ]
+          },
+          { "name": "package.json", "size": 5460 }
+        ]
+      },
+      {
+        "name": "source-map",
+        "children": [
+          { "name": "CHANGELOG.md", "size": 7884 },
+          { "name": "LICENSE", "size": 1526 },
+          { "name": "README.md", "size": 24072 },
+          {
+            "name": "dist",
+            "children": [
+              { "name": "source-map.debug.js", "size": 272874 },
+              { "name": "source-map.js", "size": 106973 },
+              { "name": "source-map.min.js", "size": 27111 },
+              { "name": "source-map.min.js.map", "size": 257409 }
+            ]
+          },
+          {
+            "name": "lib",
+            "children": [
+              { "name": "array-set.js", "size": 3197 },
+              { "name": "base64-vlq.js", "size": 4714 },
+              { "name": "base64.js", "size": 1540 },
+              { "name": "binary-search.js", "size": 4249 },
+              { "name": "mapping-list.js", "size": 2339 },
+              { "name": "quick-sort.js", "size": 3616 },
+              { "name": "source-map-consumer.js", "size": 40562 },
+              { "name": "source-map-generator.js", "size": 14356 },
+              { "name": "source-node.js", "size": 13808 },
+              { "name": "util.js", "size": 12950 }
+            ]
+          },
+          { "name": "package.json", "size": 2579 },
+          { "name": "source-map.d.ts", "size": 3060 },
+          { "name": "source-map.js", "size": 405 }
+        ]
+      },
+      {
+        "name": "source-map-js",
+        "children": [
+          { "name": "CHANGELOG.md", "size": 8606 },
+          { "name": "LICENSE", "size": 1526 },
+          { "name": "README.md", "size": 25736 },
+          {
+            "name": "lib",
+            "children": [
+              { "name": "array-set.js", "size": 3197 },
+              { "name": "base64-vlq.js", "size": 4714 },
+              { "name": "base64.js", "size": 1540 },
+              { "name": "binary-search.js", "size": 4249 },
+              { "name": "mapping-list.js", "size": 2339 },
+              { "name": "quick-sort.js", "size": 4068 },
+              { "name": "source-map-consumer.js", "size": 41482 },
+              { "name": "source-map-generator.js", "size": 14356 },
+              { "name": "source-node.js", "size": 13808 },
+              { "name": "util.js", "size": 15403 }
+            ]
+          },
+          { "name": "package.json", "size": 2548 },
+          { "name": "source-map.d.ts", "size": 3854 },
+          { "name": "source-map.js", "size": 405 }
+        ]
+      },
+      {
+        "name": "sourcemap-codec",
+        "children": [
+          { "name": "CHANGELOG.md", "size": 1249 },
+          { "name": "LICENSE", "size": 1072 },
+          { "name": "README.md", "size": 1835 },
+          {
+            "name": "dist",
+            "children": [
+              { "name": "sourcemap-codec.es.js", "size": 4200 },
+              { "name": "sourcemap-codec.es.js.map", "size": 8249 },
+              { "name": "sourcemap-codec.umd.js", "size": 4717 },
+              { "name": "sourcemap-codec.umd.js.map", "size": 8286 }
+            ]
+          },
+          {
+            "name": "types",
+            "children": [
+              { "name": "sourcemap-codec.d.ts", "size": 377 }
+            ]
+          },
+          { "name": "package.json", "size": 1817 }
+        ]
+      },
+      {
+        "name": "supports-preserve-symlinks-flag",
+        "children": [
+          { "name": "CHANGELOG.md", "size": 1989 },
+          { "name": "LICENSE", "size": 1067 },
+          { "name": "README.md", "size": 2287 },
+          { "name": "browser.js", "size": 38 },
+          { "name": "index.js", "size": 293 },
+          { "name": "package.json", "size": 1895 },
+          {
+            "name": "test",
+            "children": [
+              { "name": "index.js", "size": 737 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "vite",
+        "children": [
+          { "name": "LICENSE.md", "size": 182935 },
+          { "name": "README.md", "size": 1164 },
+          {
+            "name": "bin",
+            "children": [
+              { "name": "openChrome.applescript", "size": 2356 },
+              { "name": "vite.js", "size": 1593 }
+            ]
+          },
+          { "name": "client.d.ts", "size": 3720 },
+          {
+            "name": "dist",
+            "children": [
+              {
+                "name": "client",
+                "children": [
+                  { "name": "client.mjs", "size": 18416 },
+                  { "name": "client.mjs.map", "size": 33073 },
+                  { "name": "env.mjs", "size": 776 },
+                  { "name": "env.mjs.map", "size": 1686 }
+                ]
+              },
+              {
+                "name": "node",
+                "children": [
+                  {
+                    "name": "chunks",
+                    "children": [
+                      { "name": "dep-2056ae8a.js", "size": 12828 },
+                      { "name": "dep-59dc6e00.js", "size": 1937821 },
+                      { "name": "dep-739cc694.js", "size": 300323 },
+                      { "name": "dep-a9015192.js", "size": 22032 },
+                      { "name": "dep-ac1ae66b.js", "size": 590724 },
+                      { "name": "dep-d2c728c0.js", "size": 222039 }
+                    ]
+                  },
+                  { "name": "cli.js", "size": 25563 },
+                  { "name": "index.d.ts", "size": 99386 },
+                  { "name": "index.js", "size": 5751 },
+                  { "name": "terser.js", "size": 1043291 }
+                ]
+              }
+            ]
+          },
+          { "name": "package.json", "size": 3901 },
+          {
+            "name": "src",
+            "children": [
+              {
+                "name": "client",
+                "children": [
+                  { "name": "client.ts", "size": 14437 },
+                  { "name": "env.ts", "size": 729 },
+                  { "name": "overlay.ts", "size": 4262 }
+                ]
+              },
+              { "name": "tsconfig.json", "size": 239 }
+            ]
+          },
+          {
+            "name": "types",
+            "children": [
+              { "name": "alias.d.ts", "size": 2301 },
+              { "name": "anymatch.d.ts", "size": 214 },
+              { "name": "chokidar.d.ts", "size": 7690 },
+              { "name": "commonjs.d.ts", "size": 8663 },
+              { "name": "connect.d.ts", "size": 3334 },
+              { "name": "customEvent.d.ts", "size": 404 },
+              { "name": "dynamicImportVars.d.ts", "size": 546 },
+              { "name": "hmrPayload.d.ts", "size": 904 },
+              { "name": "hot.d.ts", "size": 607 },
+              { "name": "http-proxy.d.ts", "size": 7973 },
+              { "name": "importMeta.d.ts", "size": 1112 },
+              { "name": "package.json", "size": 79 },
+              { "name": "shims.d.ts", "size": 2036 },
+              { "name": "terser.d.ts", "size": 5733 },
+              { "name": "ws.d.ts", "size": 16436 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "vue",
+        "children": [
+          { "name": "LICENSE", "size": 1091 },
+          { "name": "README.md", "size": 4105 },
+          {
+            "name": "compiler-sfc",
+            "children": [
+              { "name": "index.d.ts", "size": 34 },
+              { "name": "index.js", "size": 46 },
+              { "name": "index.mjs", "size": 33 },
+              { "name": "package.json", "size": 74 }
+            ]
+          },
+          {
+            "name": "dist",
+            "children": [
+              { "name": "vue.cjs.js", "size": 2725 },
+              { "name": "vue.cjs.prod.js", "size": 2147 },
+              { "name": "vue.d.ts", "size": 270 },
+              { "name": "vue.esm-browser.js", "size": 606230 },
+              { "name": "vue.esm-browser.prod.js", "size": 130931 },
+              { "name": "vue.esm-bundler.js", "size": 2629 },
+              { "name": "vue.global.js", "size": 636006 },
+              { "name": "vue.global.prod.js", "size": 127923 },
+              { "name": "vue.runtime.esm-browser.js", "size": 408572 },
+              { "name": "vue.runtime.esm-browser.prod.js", "size": 84424 },
+              { "name": "vue.runtime.esm-bundler.js", "size": 611 },
+              { "name": "vue.runtime.global.js", "size": 433029 },
+              { "name": "vue.runtime.global.prod.js", "size": 83784 }
+            ]
+          },
+          { "name": "index.js", "size": 171 },
+          { "name": "index.mjs", "size": 26 },
+          { "name": "macros-global.d.ts", "size": 414 },
+          { "name": "macros.d.ts", "size": 2909 },
+          { "name": "package.json", "size": 1841 },
+          { "name": "ref-macros.d.ts", "size": 90 },
+          {
+            "name": "server-renderer",
+            "children": [
+              { "name": "index.d.ts", "size": 37 },
+              { "name": "index.js", "size": 49 },
+              { "name": "index.mjs", "size": 36 },
+              { "name": "package.json", "size": 74 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
